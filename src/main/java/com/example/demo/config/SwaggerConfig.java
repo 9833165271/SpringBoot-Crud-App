@@ -28,9 +28,7 @@ public class SwaggerConfig {
 				.apiInfo(apiInfo())
 				;
 	}
-
 	private ApiInfo apiInfo() {
-		
 		//return new ApiInfo("My NIT app", "Hello", "5.2 GA", "https://www.google.com", , null);
 		return new ApiInfo("My NIT app", "Hello", "5.2 GA", "https://www.google.com", new Contact("Abdul", "https://www.google.com", "ababa@gmail.com"), "MIT License", "https://nareshit.com", Collections.emptyList());
 	}
